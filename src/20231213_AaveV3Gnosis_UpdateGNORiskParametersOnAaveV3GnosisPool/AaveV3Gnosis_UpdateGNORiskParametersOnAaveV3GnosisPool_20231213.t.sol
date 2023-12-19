@@ -17,7 +17,7 @@ contract AaveV3Gnosis_UpdateGNORiskParametersOnAaveV3GnosisPool_20231213_Test is
   AaveV3Gnosis_UpdateGNORiskParametersOnAaveV3GnosisPool_20231213 internal proposal;
 
   function setUp() public {
-    vm.createSelectFork(vm.rpcUrl('gnosis'), 31425108);
+    vm.createSelectFork(vm.rpcUrl('gnosis'), 31425198);
     proposal = new AaveV3Gnosis_UpdateGNORiskParametersOnAaveV3GnosisPool_20231213();
   }
 
